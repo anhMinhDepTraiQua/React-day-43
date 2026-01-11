@@ -4,7 +4,7 @@ import Login from "./pages/login";
 function App() {
   return (
     <>
-      <Router>
+      <Router basename="React-day-43">
         <Routes>
           <Route path="/" index element={<Home />} />
           <Route path="/login" element={<Login />} />
